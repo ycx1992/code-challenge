@@ -144,3 +144,7 @@ Step to run
 | http code | content-type       | response                                          | description   |
 | --------- | ------------------ | ------------------------------------------------- | ------------- |
 | `200`     | `application/json` | `{"code":0,"msg":"Delete successful.","data":{}}` | Delete status |
+
+#### Appendix
+
+- For testing purpose, you can import [problem5.json](problem5.json) to [Hoppscotch](https://hoppscotch.io/) to see sample URL and data

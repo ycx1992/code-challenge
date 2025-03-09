@@ -1,0 +1,113 @@
+{
+  "v": 6,
+  "name": "problem5",
+  "folders": [],
+  "requests": [
+    {
+      "v": "11",
+      "name": "Create sales",
+      "method": "POST",
+      "endpoint": "http://localhost:3000/sales",
+      "params": [],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": "application/json",
+        "body": "{\n  \"contact\": \"James Rick\",\n  \"gender\": \"M\",\n  \"age\": 25,\n  \"state\": \"PA\",\n  \"product_code\": \"GA401IV\",\n  \"product_type\": \"Laptop\",\n  \"price\": 1349.99,\n  \"profit\": 180.34,\n  \"lead\": \"Website\",\n  \"month\": \"December\",\n  \"year\": 2019  \n}"
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "11",
+      "name": "Get sales",
+      "method": "GET",
+      "endpoint": "http://localhost:3000/sales/2",
+      "params": [],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": null,
+        "body": null
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "11",
+      "name": "List sales",
+      "method": "GET",
+      "endpoint": "http://localhost:3000/sales",
+      "params": [],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": null,
+        "body": null
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "11",
+      "name": "Update sales",
+      "method": "PUT",
+      "endpoint": "http://localhost:3000/sales/40",
+      "params": [],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": "application/json",
+        "body": "{\n  \"price\": 1349.9\n}"
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "11",
+      "name": "Delete sales",
+      "method": "DELETE",
+      "endpoint": "http://localhost:3000/sales/1",
+      "params": [],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": "application/json",
+        "body": ""
+      },
+      "requestVariables": [],
+      "responses": {}
+    }
+  ],
+  "headers": [],
+  "auth": {
+    "authType": "none",
+    "authActive": true
+  },
+  "_ref_id": "coll_m81gpi89_9e952799-9aa3-4796-85e9-39e88e7786a2"
+}
